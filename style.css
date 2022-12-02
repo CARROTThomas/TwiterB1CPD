@@ -1,0 +1,97 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+p
+{
+    margin: 0%;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.telephone
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 300px;
+    background-image: url("img/mockup.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ecran
+{
+    border-radius: 1.5rem;
+    background-color: white;
+    height: 84%;
+    width: 270px;
+    padding: 0 1em;
+}
+
+i
+{
+    cursor: pointer;
+    padding: 2px;
+}
+
+.tweets
+{
+    overflow: scroll;
+    height: 55vh;
+}
+
+.tweet1
+{
+    border-bottom: 1px solid #a1a0a0;
+}
+
+.tweet2
+{
+    border-bottom: 1px solid #a1a0a0;
+}
+
+img
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 1em;
+}
+
+.clair
+{
+    color: grey;
+    font-size: .7em;
+}
+
+.referenceTweet
+{
+    border-top: 1px solid #a1a0a0;
+    border-bottom: 1px solid #a1a0a0;
+}
+
+.infoTweet
+{
+    font-size: .7em;
+    font-weight: bolder;
+}
+
+.heartLike
+{
+    color: red;
+}
